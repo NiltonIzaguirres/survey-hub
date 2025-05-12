@@ -1,0 +1,7 @@
+{
+  "name": "survey-hub",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Nilton Izaguirres <niltonizaguirres2003@gmail.com>",
+  "license": "MIT"
+}
