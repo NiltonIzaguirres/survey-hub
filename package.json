@@ -4,6 +4,12 @@
   "main": "index.js",
   "author": "Nilton Izaguirres <niltonizaguirres2003@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest --passWithNoTests",
+    "test:watch": "npm run test -- --watch",
+    "test:staged": "npm run test -- --findRelatedTests",
+    "test:ci": "npm run test -- --coverage"
+  },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.26.0",
