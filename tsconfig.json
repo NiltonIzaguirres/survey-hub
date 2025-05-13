@@ -20,4 +20,5 @@
     "resolveJsonModule": true
   },
   "include": ["src"],
+  "types": ["@faker-js/faker"]
 }
